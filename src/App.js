@@ -13,21 +13,8 @@ import './App.css';
 
 //You must add your own API key here from Clarifai.
 const app = new Clarifai.App({
- apiKey: 'YOUR API KEY HERE'
+ apiKey: '14f402d355c44c719c7029751dc51fd3'
 });
-
-// No Longer need this. Updated to particles-bg
-// const particlesOptions = {
-//   particles: {
-//     number: {
-//       value: 30,
-//       density: {
-//         enable: true,
-//         value_area: 800
-//       }
-//     }
-//   }
-// }
 
 class App extends Component {
   constructor() {
